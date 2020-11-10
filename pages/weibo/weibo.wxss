@@ -1,0 +1,46 @@
+.container{
+  padding: 40rpx;
+}
+.container .weibo-group{
+  width: 100%;
+
+}
+.container .user-group{
+  display: flex;
+}
+.container .avatar{
+  width: 74rpx;
+  height: 74rpx;
+  border-radius: 50%;
+}
+.user-group .right-info{
+  flex:1;
+  margin-left:20rpx;
+}
+.right-info .username{
+  font-size:28rpx;
+  color: #323233;
+}
+.right-info .from{
+  font-size:24rpx;
+  color: #656565;
+}
+
+.write-weibo{
+  position: fixed;
+  right: 50rpx;
+  bottom: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+  background: rgb(116, 194,223);
+  border-radius: 50%;
+  justify-items: center;
+  align-items: center;
+  display: flex;
+  font-size: 90rpx;
+  color: aliceblue;
+  box-shadow: 0 0 5px rgb(0, 0, 0,0.5);
+}
+.write-weibo view{
+  margin-top: -11px;
+}

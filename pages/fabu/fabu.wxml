@@ -1,0 +1,6 @@
+<view class="container">
+  <form bindsubmit="onSumbitEvent">
+    <textarea name="content" placeholder="记录每一天" class="textareat"></textarea>
+    <button form-type="sumbit" type="primary" class="sumbit-btn">发表</button>
+  </form>
+</view>

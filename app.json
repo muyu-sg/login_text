@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/weibo/weibo",
+    "pages/fabu/fabu",
+    "pages/index/index",
+    "pages/login/login"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小福有研",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

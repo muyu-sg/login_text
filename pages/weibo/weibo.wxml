@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="weibo-group">
+      <view class="user-group">
+        <image class="avatar"
+        src="{{userInfo.avatarUrl}}">
+        </image>
+        <view class="right-info">
+            <view class="username">{{userInfo.nickName}}</view>
+            <view class="from">来自iPhone</view>
+        </view>
+      </view>
+  </view>
+</view>
+
+<view class="write-weibo" bind:tap="onWriteWeiboTap">
+  <view>+</view>
+</view>
